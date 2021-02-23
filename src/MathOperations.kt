@@ -1,3 +1,5 @@
+import java.util.*
+
 fun main(args: Array<String>) {
 
     println("Simple Calculator")
@@ -39,5 +41,15 @@ fun main(args: Array<String>) {
     println("--After swap--")
     println("First number = $first")
     println("Second number = $second")
+
+
+    // Find My Age
+    print("Enter Year of Birth: ")
+    val yearOfBirth = readLine()!!.toInt()
+    val yearInDevice = Calendar.getInstance().get(Calendar.YEAR)
+    val age = yearInDevice - yearOfBirth
+
+    println("Your are $age years old")
+
 
 }
