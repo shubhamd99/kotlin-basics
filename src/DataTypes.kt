@@ -20,4 +20,13 @@ fun main() {
     department = null
     department = "Software Engineering"
     println("department ${department!!}") // non-null assertion (!!)
+
+    // Swap Numbers
+    var x = 10
+    var y = 20
+    var temp: Int
+    temp = x
+    x = y
+    y = temp
+    println("x: $x, y: $y")
 }
