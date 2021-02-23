@@ -7,5 +7,10 @@ fun main() {
 
     count *= 2
 
-    print(count)
+    count++
+    count++
+
+    count--
+
+    print(count) // 21
 }
