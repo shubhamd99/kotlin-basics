@@ -1,5 +1,6 @@
 package DataStructures
 
+// In Array we have to define the size
 fun main() {
 
     val maxSize = 5
