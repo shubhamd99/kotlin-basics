@@ -1,5 +1,6 @@
 import kotlin.collections.ArrayList
 
+// the Comparable interface provides a compareTo() function to compare two objects.
 class Person(var name: String, var age: Int): Comparable<Person> {
 
     override fun compareTo(other: Person): Int {
